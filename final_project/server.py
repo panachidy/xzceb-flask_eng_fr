@@ -20,7 +20,7 @@ def french_to_english():
 
 @app.route("/")
 def renderIndexPage():
-    return render_template('translate.html')
+    return render_template('index.html')
     
 
 if __name__ == "__main__":
